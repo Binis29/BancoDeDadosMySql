@@ -6,7 +6,7 @@ Exercícios para aprendizagem da utilização do banco de dados MySql
 
 ## Alguns Comandos 
 
-2 . **create database** *"nome da base de dados"*- cria uma base de dados 
+**create database** *"nome da base de dados"*- cria uma base de dados 
 
 **use** *"nome da base de dados"*- usa a base de dados
 
