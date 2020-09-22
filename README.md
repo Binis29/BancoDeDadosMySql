@@ -1,34 +1,36 @@
 # BancoDeDadosMySql
 
-*Exercícios para aprendizagem da utilização do banco de dados MySql*
+Exercícios para aprendizagem da utilização do banco de dados MySql
 
-### Built using info from [Sintaxe básica de escrita e formatação no GitHub](https://docs.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax)
+#### Built using info from [Sintaxe básica de escrita e formatação no GitHub](https://docs.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax)
 
-#### **create database** #### *"nome da base de dados"*- cria uma base de dados 
+## Alguns Comandos 
 
-**use** *"nome da base de dados"*- usa a base de dados
+	**create database** *"nome da base de dados"*- cria uma base de dados 
 
-**create table** *"nome da tabela"*- cria uma tabela dentro da base de dados
+	**use** *"nome da base de dados"*- usa a base de dados
 
-**PRIMARY KEY AUTO_INCREMENT** - chave primária incremento automático
+	**create table** *"nome da tabela"*- cria uma tabela dentro da base de dados
 
-**insert into** *"nome da tabela"* (*nome,dos,campos*) **values** (*"valores string entre aspas"*, *valores numéricos sem aspas*) - insere dados nos campos da tabela
+	**PRIMARY KEY AUTO_INCREMENT** - chave primária incremento automático
 
-		ex: insert into consumidores (nome - "campo nome") values
-			("Marcelo"),
-			("Julia");
+	**insert into** *"nome da tabela"* (*nome,dos,campos*) **values** (*"valores string entre aspas"*, *valores numéricos sem aspas*) - insere dados nos campos da tabela
 
-**select * from** *"nome da tabela"* - seleciona todos os campos e valores de uma tabela
+			ex: insert into consumidores (nome - "campo nome") values
+				("Marcelo"),
+				("Julia");
 
-**drop table** *"nome da tabela"* - deletar tabela
+	**select * from** *"nome da tabela"* - seleciona todos os campos e valores de uma tabela
 
-**delete from** *"nome da tabela"* **where** *"condição"* - deletar alguma coisa da tabela
+	**drop table** *"nome da tabela"* - deletar tabela
 
-**create table if not exists** *"nome da tabela"* - cria a tabela caso ela não exista
+	**delete from** *"nome da tabela"* **where** *"condição"* - deletar alguma coisa da tabela
 
-**truncate** *"tabela"* - deleta todos os dados da tabela sem deletar a tabela
+	**create table if not exists** *"nome da tabela"* - cria a tabela caso ela não exista
+
+	**truncate** *"tabela"* - deleta todos os dados da tabela sem deletar a tabela
 
 
-#### **MER - ACRÔNIMO PARA MODELO ENTIDADE RELACIONAL**
+	#### **MER - ACRÔNIMO PARA MODELO ENTIDADE RELACIONAL**
 
-#### **DER - ACRÔNIMO PARA DIAGRAMA ENTIDADE RELACIONAL (Mais completo)**
+	#### **DER - ACRÔNIMO PARA DIAGRAMA ENTIDADE RELACIONAL (Mais completo)**
