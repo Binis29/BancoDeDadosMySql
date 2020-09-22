@@ -1,6 +1,7 @@
 # BancoDeDadosMySql
 Exercícios para aprendizagem da utilização do banco de dados MySql
 
+##Built using info from [Sintaxe básica de escrita e formatação no GitHub](https://docs.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax)
 
 create database "nome da base de dados"- cria uma base de dados 
 
